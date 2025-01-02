@@ -431,7 +431,9 @@ video {
 #testimonials .nav-btn,
 #testimonials .ornament1,
 #testimonials .ornament2,
-#testimonials .polygon {
+#testimonials .polygon,
+#testimonials .arr1,
+#testimonials .arr2 {
   position: absolute;
 }
 #testimonials .ornament1 {
@@ -451,6 +453,15 @@ video {
 #testimonials .polygon {
   left: 47%;
   bottom: -40px;
+}
+
+#testimonials .arr1 {
+  left: 0;
+  top: 50px;
+}
+#testimonials .arr2 {
+  right: 0;
+  bottom: 0;
 }
 
 /* Custom styles for the Latest Blogs section */
@@ -859,6 +870,11 @@ button:disabled {
   #hero .col-lg-3 img {
     width: 100%;
     object-fit: contain;
+  }
+
+  #testimonials .arr2,
+  #testimonials .arr1 {
+    width: 50px;
   }
 }
 .page-logo img {
